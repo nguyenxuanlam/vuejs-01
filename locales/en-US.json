@@ -1,0 +1,157 @@
+{
+  "$schema": "./_schema.json",
+  "locale": "English",
+  "welcome": "Welcome",
+  "buttons": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "create": "Create new",
+    "search": "Search",
+    "clear": "Clear",
+    "close": "Close",
+    "reload": "Refresh"
+  },
+  "menus": {
+    "home": "Home",
+    "page_1": {
+      "root": "Page 1",
+      "list": "List data"
+    },
+    "users": {
+      "root": "User",
+      "list": "User list"
+    },
+    "keywords": {
+      "root": "Keyword",
+      "list": "Keyword list"
+    },
+    "reports": {
+      "title": "History",
+      "history-domain-checks": {
+        "root": "Check domain",
+        "list": "Domain check list"
+      },
+      "history-domain-records": {
+        "root": "Record domain",
+        "list": "Domain record list"
+      }
+    },
+    "manuals": {
+      "check-website": {
+        "root": "Check website",
+        "list": "Check website list"
+      },
+      "record-website": {
+        "root": "Record website",
+        "list": "Record website list"
+      },
+      "report": {
+        "root": "Report",
+        "list": "Report list"
+      },
+      "report_group": {
+        "root": "Report group"
+      }
+    },
+    "keyword-management": {
+      "root": "Keyword management",
+      "list": "Keyword management list"
+    }
+  },
+  "auth": {
+    "email": "Email",
+    "password": "Password",
+    "login": "Login",
+    "signin": "Sign in",
+    "logout": "Logout",
+    "profile": "Profile",
+    "id": "ID",
+    "role": "Role",
+    "name": "Name",
+    "created_at": "Created At",
+    "change_password": "Change password",
+    "current_password": "Current password",
+    "new_password": "New password",
+    "confirm_password": "Confirm password",
+    "confirm_password_not_same": "Password does not match"
+  },
+  "rules": {
+    "required": "{field} is required",
+    "min": "{field} must be at least {value} characters",
+    "max": "{field} must not exceed {value} characters",
+    "email": "Email is not a valid",
+    "phone": "{field} is not a valid phone number",
+    "number": "{field} must be a number",
+    "integer": "{field} must be an integer",
+    "float": "{field} must be a float",
+    "array": "{field} must be an array",
+    "object": "{field} must be an object",
+    "date": "{field} is not a valid date",
+    "min_value": "{field} must not be less than {value}",
+    "max_value": "{field} must not be greater than {value}",
+    "min_length": "{field} must not be less than {value} characters",
+    "max_length": "{field} must not be more than {value} characters",
+    "regex": "{field} is not in the correct format",
+    "unique": "{field} already exists",
+    "confirmed": "{field} does not match",
+    "not_in": "{field} is invalid"
+  },
+  "errors": {
+    "error": "An error occurred"
+  },
+  "messages": {
+    "copy_not_supported": "Copy is not supported",
+    "copied": "Copied",
+    "copy_failed": "Copy failed"
+  },
+  "pages": {
+    "users": {
+      "title": {
+        "root": "User",
+        "list": "User list"
+      },
+      "table": {
+        "id": "ID",
+        "name": "Name",
+        "email": "Email",
+        "username": "Username",
+        "role": "Role",
+        "created_at": "Created At",
+        "updated_at": "Updated At",
+        "last_login": "Last Login"
+      }
+    },
+    "keywords": {
+      "title": {
+        "root": "Keyword",
+        "list": "Keyword list",
+        "tooltip": "Create and manage keywords"
+      },
+      "table": {
+        "id": "ID",
+        "name": "Keyword",
+        "run_daily": "Run Daily",
+        "status": "Status",
+        "action": "Action",
+        "domain_total": "Domain total",
+        "created_user": "Created User",
+        "created_at": "Created At",
+        "updated_at": "Updated At"
+      },
+      "search": {
+        "name": "Keyword",
+        "status": "Status",
+        "created_at_from": "Created at from",
+        "created_at_to": "Created at to",
+        "created_user": "Created User"
+      },
+      "status": {
+        "yes": "Yes",
+        "no": "No"
+      }
+    }
+  }
+}

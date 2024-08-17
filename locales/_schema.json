@@ -1,0 +1,238 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "locale": {
+      "type": "string"
+    },
+    "buttons": {
+      "type": "object",
+      "properties": {
+        "save": {
+          "type": "string"
+        },
+        "cancel": {
+          "type": "string"
+        },
+        "delete": {
+          "type": "string"
+        },
+        "edit": {
+          "type": "string"
+        },
+        "add": {
+          "type": "string"
+        },
+        "create": {
+          "type": "string"
+        },
+        "search": {
+          "type": "string"
+        },
+        "clear": {
+          "type": "string"
+        },
+        "close": {
+          "type": "string"
+        }
+      },
+      "required": ["save", "cancel", "delete", "edit", "add", "create", "search", "clear", "close"]
+    },
+    "menus": {
+      "type": "object",
+      "properties": {
+        "home": {
+          "type": "string"
+        },
+        "page_1": {
+          "type": "object",
+          "properties": {
+            "root": {
+              "type": "string"
+            },
+            "list": {
+              "type": "string"
+            }
+          },
+          "required": ["root", "list"]
+        },
+        "users": {
+          "type": "object",
+          "properties": {
+            "root": {
+              "type": "string"
+            },
+            "list": {
+              "type": "string"
+            }
+          },
+          "required": ["root", "list"]
+        }
+      },
+      "required": ["home", "page_1", "users"]
+    },
+    "auth": {
+      "type": "object",
+      "properties": {
+        "email": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        },
+        "login": {
+          "type": "string"
+        },
+        "signin": {
+          "type": "string"
+        },
+        "logout": {
+          "type": "string"
+        },
+        "profile": {
+          "type": "string"
+        }
+      },
+      "required": ["email", "password", "login", "signin", "logout", "profile"]
+    },
+    "rules": {
+      "type": "object",
+      "properties": {
+        "required": {
+          "type": "string"
+        },
+        "min": {
+          "type": "string"
+        },
+        "max": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "phone": {
+          "type": "string"
+        },
+        "number": {
+          "type": "string"
+        },
+        "integer": {
+          "type": "string"
+        },
+        "float": {
+          "type": "string"
+        },
+        "array": {
+          "type": "string"
+        },
+        "object": {
+          "type": "string"
+        },
+        "date": {
+          "type": "string"
+        },
+        "min_value": {
+          "type": "string"
+        },
+        "max_value": {
+          "type": "string"
+        },
+        "min_length": {
+          "type": "string"
+        },
+        "max_length": {
+          "type": "string"
+        },
+        "regex": {
+          "type": "string"
+        },
+        "unique": {
+          "type": "string"
+        },
+        "confirmed": {
+          "type": "string"
+        },
+        "not_in": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "required",
+        "min",
+        "max",
+        "email",
+        "phone",
+        "number",
+        "integer",
+        "float",
+        "array",
+        "object",
+        "date",
+        "min_value",
+        "max_value",
+        "min_length",
+        "max_length",
+        "regex",
+        "unique",
+        "confirmed",
+        "not_in"
+      ]
+    },
+    "errors": {
+      "type": "object",
+      "properties": {
+        "error": {
+          "type": "string"
+        }
+      },
+      "required": ["error"]
+    },
+    "pages": {
+      "type": "object",
+      "properties": {
+        "users": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "object",
+              "properties": {
+                "root": {
+                  "type": "string"
+                },
+                "list": {
+                  "type": "string"
+                }
+              },
+              "required": ["root", "list"]
+            },
+            "table": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "email": {
+                  "type": "string"
+                },
+                "created_at": {
+                  "type": "string"
+                },
+                "updated_at": {
+                  "type": "string"
+                }
+              },
+              "required": ["id", "name", "email", "created_at", "updated_at"]
+            }
+          },
+          "required": ["title", "table"]
+        }
+      },
+      "required": ["users"]
+    }
+  },
+  "required": ["locale", "buttons", "menus", "auth", "rules", "errors", "pages"]
+}

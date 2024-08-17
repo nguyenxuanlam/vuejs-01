@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* For rgb(40 85 255 / <alpha-value>) */
+    --color-primary-100: 235, 237, 240;
+    --color-primary-200: 214, 220, 226;
+    --color-primary-300: 194, 202, 211;
+    --color-primary-400: 153, 167, 182;
+    --color-primary-500: 112, 132, 152;
+    --color-primary-default: 50, 79, 108;
+    --color-primary-dark: 40, 63, 86;
+
+    --color-success-100: 128, 231, 198;
+    --color-success-200: 51, 217, 164;
+    --color-success-300: 0, 207, 141;
+    --color-success-400: 0, 166, 113;
+    --color-success-500: 0, 104, 71;
+
+    --color-danger-100: 247, 152, 169;
+    --color-danger-200: 242, 89, 117;
+    --color-danger-300: 239, 48, 82;
+    --color-danger-400: 191, 38, 66;
+    --color-danger-500: 120, 24, 41;
+
+    --color-warning-100: 254, 216, 160;
+    --color-warning-200: 253, 192, 102;
+    --color-warning-300: 242, 153, 74;
+    --color-warning-400: 202, 141, 51;
+    --color-warning-500: 126, 88, 32;
+
+    --color-info-100: 147, 203, 247;
+    --color-info-200: 81, 171, 242;
+    --color-info-300: 38, 150, 239;
+    --color-info-400: 30, 120, 191;
+    --color-info-500: 19, 75, 120;
+
+    --color-white: 255, 255, 255;
+    --color-gray-100: 228, 231, 237;
+    --color-gray-200: 220, 223, 230;
+    --color-gray-300: 192, 196, 204;
+    --color-gray-400: 168, 171, 178;
+    --color-gray-500: 144, 147, 153;
+    --color-gray-600: 126, 126, 128;
+    --color-gray-700: 96, 98, 102;
+    --color-gray-800: 48, 49, 51;
+    --color-gray-900: 30, 31, 32;
+    --color-black: 0, 0, 0;
+  }
+}

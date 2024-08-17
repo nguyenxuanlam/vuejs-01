@@ -1,0 +1,12 @@
+.progress-custom.n-progress {
+  height: 11px;
+  border-radius: 5px;
+  padding: 2px;
+  background-color: #ede9f3;
+
+  .n-progress-graph
+    .n-progress-graph-line.n-progress-graph-line--indicator-inside
+    .n-progress-graph-line-rail {
+    overflow: visible;
+  }
+}
